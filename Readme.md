@@ -1,1 +1,1 @@
-All the stuff should be learned
+All the st
