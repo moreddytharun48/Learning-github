@@ -45,4 +45,5 @@ two tyes - fast forward/no fast forward
 fast forward = will be done when there is no extra commits on the branch 
 no fast forward = when there are commits available in the branch
 
-git merge ______ 
+git merge ______  used to merge the branches
+
