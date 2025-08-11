@@ -1,0 +1,48 @@
+                                                                                     Day 1 of learning git
+what is git ?
+git an open source distributed version control system
+dvcs-remote repo/server/backup of data
+    -local repo/available in all local devices
+local repo has 3 areas - working area/staging area/commited files
+
+what is repository?
+a place where all the files and history is stored
+
+mkdir - to make a directory
+cd ____ - to change the directory
+
+git init - used to initilaize the repo
+touch _____.txt - to create a new file
+echo "____" >> ___.txt = write  you the content in the file
+git status - shows you the status of the file
+git add ____.txt = moves to staging area from working area
+git commit -m = it will be commited
+
+for the configuration of your name and mail
+git config user.name "_____"
+git config user.email "____"
+
+cat ___.txt - shows you the content in file
+git restore _____.txt - restore the older file
+git .add - add multiple files at once
+
+to remove files
+git rm --cached ____.txt - to retain the file 
+git rm -f - to permanently delete the file
+
+git log - show you the info about commits,history,author
+git log --oneline - it shows you in one line
+
+ Branches 
+ git branch ____ = to create a new branch
+ git checkout ___ = to switch the branch
+ git checkout -b ____ = to create and switch to th new branch
+git branch  - shows you the number of branches
+git branch -d ___ = to delete a branch
+
+ merging of branches
+two tyes - fast forward/no fast forward
+fast forward = will be done when there is no extra commits on the branch 
+no fast forward = when there are commits available in the branch
+
+git merge ______ 
