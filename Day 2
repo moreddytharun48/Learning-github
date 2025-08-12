@@ -1,0 +1,32 @@
+git remote add origin <url>
+[Link you local repo to remote repo]
+ 
+git remote -v
+[ Shows the all repo linked to local repos]
+ Fetch = download objects from the another repo
+ git push <repo name> <current branch>
+[Pushing local commits to remote repo]
+git clone (ssh link)
+[Downloading the copy of a file/project]
+git fetch <reponame> <branch>
+git pull <origin> <branch>
+( It performs both commands fetch and merge once)
+git add ----.txt (for merge conflict)
+git merge
+git rebase branch 
+(Copy the commit. From one branch to another branch and also moved top from one to another)
+git rebase -i HEAD~4 (interactive rebassing)
+git cherry -pick < hash value>
+(Takes the commit from anywhere one or multiple commits based on syntax)
+git revert <hash value>
+(Undo the changes for a specific commit)
+git reset --soft/hard HEAD~1
+(Remove commits from history soft means keeps changes in history and hard doesn't)
+git stash 
+(Temporarily changes the uncommitted changes made )
+git stash pop
+(From stash area to working area)
+git stash list 
+(Shows you the list of objects in stash)
+git reflog 
+(Records and shows the all actions made in repo )
